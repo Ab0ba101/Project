@@ -111,3 +111,41 @@
     }
 
 }
+
+.WelcomeClan{
+    background-image: url(../img/Ozero.svg);
+    width: 600px;
+    height: 404px;
+    margin: auto auto;
+    margin-bottom: 148px;
+    margin-top: 148px;
+
+    text-align: center;
+
+    img{
+
+    }
+
+
+    .clanText{
+        color: #FFFFFF;
+        font-family: 'HeadlandOne';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+
+    }
+
+    .Pondora{
+        color: #FFFFFF;
+        margin-top: 80px;
+        width: 328px;
+        height: 60px;
+        font-family: 'HeadlandOne';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
