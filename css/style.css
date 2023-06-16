@@ -1,4 +1,4 @@
-@import url();
+@import url("https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 html,
 body,
 div,
@@ -233,12 +233,22 @@ table {
   background-image: url(../img/Ozero.svg);
   width: 600px;
   height: 404px;
-  margin: auto auto;
-  margin-bottom: 148px;
-  margin-top: 148px;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
+.WelcomeClan img {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  padding-top: 16px;
+  padding-left: 269px;
+}
 .WelcomeClan .clanText {
+  padding-top: 50px;
   color: #FFFFFF;
   font-family: "HeadlandOne";
   font-style: normal;
@@ -254,6 +264,7 @@ table {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
+  line-height: 30px;
   margin-left: auto;
   margin-right: auto;
 }
